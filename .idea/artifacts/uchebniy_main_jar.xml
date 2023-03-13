@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="uchebniy-main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/uchebniy_main_jar</output-path>
+    <root id="archive" name="uchebniy-main.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="uchebniy-main" />
+    </root>
+  </artifact>
+</component>

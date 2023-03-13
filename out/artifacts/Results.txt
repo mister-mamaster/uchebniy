@@ -1,0 +1,46 @@
+Function of statuses
+     A1  A2  A3  A4  A5 
+    --------------------
+ Z1 | A3  A5  A4  A5  A3 
+ Z2 | A1  A3  A1  A1  A5 
+ Z3 | A1  A5  A1  A5  A2 
+ Z4 | A3  A3  A1  A2  A4 
+ Z5 | A4  A1  A5  A3  A4 
+
+Function of output
+     A1  A2  A3  A4  A5 
+    --------------------
+ Z1 | W2  W4  W3  W1  W2 
+ Z2 | W2  W4  W5  W4  W2 
+ Z3 | W4  W5  W2  W3  W5 
+ Z4 | W5  W3  W1  W3  W3 
+ Z5 | W2  W2  W5  W1  W4 
+
+
+[A1, A3, A4, A5, A3, A1, A3, A4, A2, A5, A2]
+[Z1, Z1, Z1, Z1, Z4, Z4, Z1, Z4, Z1, Z3]
+[W2, W3, W1, W2, W1, W5, W3, W3, W4, W5, W5]
+
+Value of the final status function - A2
+Value of the final output function - W5
+
+Function of statuses
+     A1  A2  A3  A4  A5 
+    --------------------
+ Z1 | A2  A2  A2  A1  A3 
+ Z2 | A1  A3  A4  A2  A1 
+ Z3 | A2  A4  A2  A3  A4 
+ Z4 | A2  A2  A1  A5  A1 
+ Z5 | A5  A4  A4  A3  A4 
+
+Function of output
+ A1  A2  A3  A4  A5 
+ W5  W3  W4  W1  W2 
+
+
+[A1, A1, A2, A4, A3, A2, A4, A1, A2, A3, A4, A5]
+    [Z1, Z3, Z3, Z3, Z3, Z1, Z3, Z2, Z5, Z5]
+[W5, W5, W3, W1, W4, W3, W1, W5, W3, W4, W1, W4]
+
+Value of the final status function - A5
+Value of the final output function - W4
